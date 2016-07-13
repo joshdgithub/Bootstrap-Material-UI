@@ -8,8 +8,8 @@
     <meta name="description" content="Implements Google's Material Design in Bootstrap.">
     <title>JavaScript - Tabs | Exentriq - Bootstrap Material UI</title>
     <!-- CSS-->
-    <link href="assets/css/exentriq-bootstrap-material-ui.min.css?v=0.3.2" rel="stylesheet">
-    <link href="assets/css/doc.css?v=0.3.2" rel="stylesheet">
+    <link href="assets/css/exentriq-bootstrap-material-ui.css?v=0.0.0" rel="stylesheet">
+    <link href="assets/css/doc.css?v=0.0.0" rel="stylesheet">
   </head>
   <body class="eq-ui-layout-header-fixed eq-ui-side-nav-auto">
     <script>var _doc_route = {root_path:"java-script",path:"tabs",name_section:"JavaScript",name_chapter:"Tabs"};</script>
@@ -740,9 +740,38 @@
         <div id="eq-ui-tab-s1-t3" class="col-md-12">Disabled...</div>
         <div id="eq-ui-tab-s1-t4" class="col-md-12">Item four...</div>
 
-        <div class="col-md-12">
-            <br>
-            <pre><code class="language-markup">
+<div class="col-md-12">
+   <div class="eq-ui-scrollbar-wrap eq-ui-primary-color eq-ui-scrollbar-wrap-x eq-ui-scrollbar-wrap-hide common">
+       <ul class="eq-ui-tabs">
+           <li class="eq-ui-tab"><a class="active" href="#eq-ui-tab-s1-t5">JADE</a></li>
+           <li class="eq-ui-tab"><a href="#eq-ui-tab-s1-t6">HTML</a></li>
+
+       </ul>
+   </div>
+</div>
+
+<div id="eq-ui-tab-s1-t5" class="col-md-12">
+<pre><code class="language-jade">
+.col-md-12
+  .eq-ui-scrollbar-wrap.eq-ui-scrollbar-wrap-x.eq-ui-scrollbar-wrap-hide
+    ul.eq-ui-tabs
+      li.eq-ui-tab
+        a(href='#eq-ui-tab-s1-t1') Item one
+      li.eq-ui-tab
+        a.active(href='#eq-ui-tab-s1-t2') Item two
+      li.eq-ui-tab.disabled
+        a(href='#eq-ui-tab-s1-t3') Disabled
+      li.eq-ui-tab
+        a(href='#eq-ui-tab-s1-t4') Item four
+#eq-ui-tab-s1-t1.col-md-12 Item one...
+#eq-ui-tab-s1-t2.col-md-12 Item two...
+#eq-ui-tab-s1-t3.col-md-12 Disabled...
+#eq-ui-tab-s1-t4.col-md-12 Item four...
+</code></pre>
+
+</div>
+<div id="eq-ui-tab-s1-t6" class="col-md-12">
+<pre><code class="language-markup">
 &lt;div class=&quot;col-md-12&quot;&gt;
     &lt;div class=&quot;eq-ui-scrollbar-wrap eq-ui-scrollbar-wrap-x eq-ui-scrollbar-wrap-hide&quot;&gt;
         &lt;ul class=&quot;eq-ui-tabs&quot;&gt;
@@ -758,6 +787,8 @@
 &lt;div id=&quot;eq-ui-tab-s1-t2&quot; class=&quot;col-md-12&quot;&gt;Item two...&lt;/div&gt;
 &lt;div id=&quot;eq-ui-tab-s1-t3&quot; class=&quot;col-md-12&quot;&gt;Disabled...&lt;/div&gt;
 &lt;div id=&quot;eq-ui-tab-s1-t4&quot; class=&quot;col-md-12&quot;&gt;Item four...&lt;/div&gt;</code></pre>
+</div>
+</div>
         </div>
     </div>
 
@@ -788,13 +819,39 @@
         <div id="eq-ui-tab-s2-t3" class="col-md-12">Disabled...</div>
         <div id="eq-ui-tab-s2-t4" class="col-md-12">Item four...</div>
 
-        <div class="col-md-12">
-            <br>
-            <pre><code class="language-markup">
+<div class="col-md-12">
+   <div class="eq-ui-scrollbar-wrap eq-ui-primary-color eq-ui-scrollbar-wrap-x eq-ui-scrollbar-wrap-hide common">
+       <ul class="eq-ui-tabs">
+           <li class="eq-ui-tab"><a class="active" href="#eq-ui-tab-s1-t7">JADE</a></li>
+           <li class="eq-ui-tab"><a href="#eq-ui-tab-s1-t8">HTML</a></li>
+
+       </ul>
+   </div>
+</div>
+
+<div id="eq-ui-tab-s1-t7" class="col-md-12">
+<pre><code class="language-jade">
+| ...
+li.eq-ui-tab
+  a(href='/color.html') Color
+li.eq-ui-tab
+  a.active(href='/helpers.html') Helpers
+li.eq-ui-tab
+  a(href='/table.html') Table
+li.eq-ui-tab
+  a(href='/typography.html') Typography
+| ...
+</code></pre>
+
+</div>
+<div id="eq-ui-tab-s1-t8" class="col-md-12">
+<pre><code class="language-markup">
 ...
 &lt;ul class=&quot;eq-ui-tabs eq-ui-tabs-color-inverted eq-ui-tabs-justified&quot;&gt;
 ...</code></pre>
-        </div>
+</div>
+</div>
+
     </div>
 
     <div class="row">
@@ -819,15 +876,41 @@
 
         </div>
 
-        <div class="col-md-12">
-            <br>
-            <pre><code class="language-markup">
+<div class="col-md-12">
+   <div class="eq-ui-scrollbar-wrap eq-ui-primary-color eq-ui-scrollbar-wrap-x eq-ui-scrollbar-wrap-hide common">
+       <ul class="eq-ui-tabs">
+           <li class="eq-ui-tab"><a class="active" href="#eq-ui-tab-s1-t9">JADE</a></li>
+           <li class="eq-ui-tab"><a href="#eq-ui-tab-s1-t10">HTML</a></li>
+
+       </ul>
+   </div>
+</div>
+
+<div id="eq-ui-tab-s1-t9" class="col-md-12">
+<pre><code class="language-jade">
+| ...
+li.eq-ui-tab
+  a(href='/color.html') Color
+li.eq-ui-tab
+  a.active(href='/helpers.html') Helpers
+li.eq-ui-tab
+  a(href='/table.html') Table
+li.eq-ui-tab
+  a(href='/typography.html') Typography
+| ...
+</code></pre>
+
+</div>
+<div id="eq-ui-tab-s1-t10" class="col-md-12">
+<pre><code class="language-markup">
 ...
 &lt;li class=&quot;eq-ui-tab&quot;&gt;&lt;a href=&quot;/color.html&quot;&gt;Color&lt;/a&gt;&lt;/li&gt;
 &lt;li class=&quot;eq-ui-tab&quot;&gt;&lt;a class=&quot;active&quot; href=&quot;/helpers.html&quot;&gt;Helpers&lt;/a&gt;&lt;/li&gt;
 &lt;li class=&quot;eq-ui-tab&quot;&gt;&lt;a href=&quot;/table.html&quot;&gt;Table&lt;/a&gt;&lt;/li&gt;
 &lt;li class=&quot;eq-ui-tab&quot;&gt;&lt;a href=&quot;/typography.html&quot;&gt;Typography&lt;/a&gt;&lt;/li&gt;
 ...</code></pre>
+</div>
+</div>
         </div>
     </div>
 
@@ -858,9 +941,39 @@
         <div id="eq-ui-tab-s3-t3" class="col-md-12">Disabled...</div>
         <div id="eq-ui-tab-s3-t4" class="col-md-12">Item four...</div>
 
-        <div class="col-md-12">
-            <br>
-            <pre><code class="language-markup">
+<div class="col-md-12">
+   <div class="eq-ui-scrollbar-wrap eq-ui-primary-color eq-ui-scrollbar-wrap-x eq-ui-scrollbar-wrap-hide common">
+       <ul class="eq-ui-tabs">
+           <li class="eq-ui-tab"><a class="active" href="#eq-ui-tab-s1-t11">JADE</a></li>
+           <li class="eq-ui-tab"><a href="#eq-ui-tab-s1-t12">HTML</a></li>
+
+       </ul>
+   </div>
+</div>
+
+<div id="eq-ui-tab-s1-t11" class="col-md-12">
+<pre><code class="language-jade">
+| ...
+ul.eq-ui-tabs.eq-ui-tabs-with-icons.eq-ui-tabs-color-inverted.eq-ui-tabs-justified
+  li.eq-ui-tab
+    a(href='#eq-ui-tab-s3-t1')
+      i.mdi.mdi-home.icon
+  li.eq-ui-tab
+    a.active(href='#eq-ui-tab-s3-t2')
+      i.mdi.mdi-settings.icon
+  li.eq-ui-tab.disabled
+    a(href='#eq-ui-tab-s3-t3')
+      i.mdi.mdi-book-variant.icon
+  li.eq-ui-tab
+    a(href='#eq-ui-tab-s3-t4')
+      i.mdi.mdi-heart.icon
+| ...
+
+</code></pre>
+
+</div>
+<div id="eq-ui-tab-s1-t12" class="col-md-12">
+<pre><code class="language-markup">
 ...
 &lt;ul class=&quot;eq-ui-tabs eq-ui-tabs-with-icons eq-ui-tabs-color-inverted eq-ui-tabs-justified&quot;&gt;
     &lt;li class=&quot;eq-ui-tab&quot;&gt;&lt;a href=&quot;#eq-ui-tab-s3-t1&quot;&gt;&lt;i class=&quot;mdi mdi-home icon&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
@@ -869,6 +982,8 @@
     &lt;li class=&quot;eq-ui-tab&quot;&gt;&lt;a href=&quot;#eq-ui-tab-s3-t4&quot;&gt;&lt;i class=&quot;mdi mdi-heart icon&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 ...</code></pre>
+</div>
+</div>
         </div>
     </div>
 
@@ -899,9 +1014,38 @@
         <div id="eq-ui-tab-s4-t3" class="col-md-12">Disabled...</div>
         <div id="eq-ui-tab-s4-t4" class="col-md-12">Item four...</div>
 
-        <div class="col-md-12">
-            <br>
-            <pre><code class="language-markup">
+<div class="col-md-12">
+   <div class="eq-ui-scrollbar-wrap eq-ui-primary-color eq-ui-scrollbar-wrap-x eq-ui-scrollbar-wrap-hide common">
+       <ul class="eq-ui-tabs">
+           <li class="eq-ui-tab"><a class="active" href="#eq-ui-tab-s1-t13">JADE</a></li>
+           <li class="eq-ui-tab"><a href="#eq-ui-tab-s1-t14">HTML</a></li>
+
+       </ul>
+   </div>
+</div>
+
+<div id="eq-ui-tab-s1-t13" class="col-md-12">
+<pre><code class="language-jade">
+| ...
+ul.eq-ui-tabs.eq-ui-tabs-with-icons.eq-ui-tabs-color-inverted.eq-ui-tabs-justified
+  li.eq-ui-tab
+    a(href='#eq-ui-tab-s3-t1')
+      i.mdi.mdi-home.icon
+  li.eq-ui-tab
+    a.active(href='#eq-ui-tab-s3-t2')
+      i.mdi.mdi-settings.icon
+  li.eq-ui-tab.disabled
+    a(href='#eq-ui-tab-s3-t3')
+      i.mdi.mdi-book-variant.icon
+  li.eq-ui-tab
+    a(href='#eq-ui-tab-s3-t4')
+      i.mdi.mdi-heart.icon
+| ...
+</code></pre>
+
+</div>
+<div id="eq-ui-tab-s1-t14" class="col-md-12">
+<pre><code class="language-markup">
 ...
 &lt;ul class=&quot;eq-ui-tabs eq-ui-tabs-with-left-icons eq-ui-tabs-color-inverted eq-ui-tabs-justified&quot;&gt;
     &lt;li class=&quot;eq-ui-tab&quot;&gt;&lt;a href=&quot;#eq-ui-tab-s4-t1&quot;&gt;&lt;i class=&quot;mdi mdi-home icon&quot;&gt;&lt;/i&gt; Home&lt;/a&gt;&lt;/li&gt;
@@ -910,6 +1054,8 @@
     &lt;li class=&quot;eq-ui-tab&quot;&gt;&lt;a href=&quot;#eq-ui-tab-s4-t4&quot;&gt;&lt;i class=&quot;mdi mdi-heart icon&quot;&gt;&lt;/i&gt; Showcase&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 ...</code></pre>
+</div>
+</div>
         </div>
     </div>
 
@@ -945,9 +1091,48 @@
         <div id="eq-ui-tab-s5-t3" class="col-md-12">Disabled...</div>
         <div id="eq-ui-tab-s5-t4" class="col-md-12">Item four...</div>
 
-        <div class="col-md-12">
-            <br>
-            <pre><code class="language-markup">
+        
+
+<div class="col-md-12">
+   <div class="eq-ui-scrollbar-wrap eq-ui-primary-color eq-ui-scrollbar-wrap-x eq-ui-scrollbar-wrap-hide common">
+       <ul class="eq-ui-tabs">
+           <li class="eq-ui-tab"><a class="active" href="#eq-ui-tab-s1-t15">JADE</a></li>
+           <li class="eq-ui-tab"><a href="#eq-ui-tab-s1-t16">HTML</a></li>
+
+       </ul>
+   </div>
+</div>
+
+<div id="eq-ui-tab-s1-t15" class="col-md-12">
+<pre><code class="language-jade">
+| ...
+ul.eq-ui-tabs.eq-ui-tabs-with-top-icons.eq-ui-tabs-color-inverted.eq-ui-tabs-justified
+  li.eq-ui-tab
+    a(href='#eq-ui-tab-s5-t1')
+      i.mdi.mdi-home.icon
+      br
+      | Home
+  li.eq-ui-tab
+    a.active(href='#eq-ui-tab-s5-t2')
+      i.mdi.mdi-settings.icon.eq-ui-badge.eq-ui-badge-overlap(data-badge='12')
+      br
+      | Settings
+  li.eq-ui-tab.disabled
+    a(href='#eq-ui-tab-s5-t3')
+      i.mdi.mdi-book-variant.icon
+      br
+      | Components
+  li.eq-ui-tab
+    a(href='#eq-ui-tab-s5-t4')
+      i.mdi.mdi-heart.icon
+      br
+      | Showcase
+| ...
+</code></pre>
+
+</div>
+<div id="eq-ui-tab-s1-t16" class="col-md-12">
+<pre><code class="language-markup">
 ...
 &lt;ul class=&quot;eq-ui-tabs eq-ui-tabs-with-top-icons eq-ui-tabs-color-inverted eq-ui-tabs-justified&quot;&gt;
     &lt;li class=&quot;eq-ui-tab&quot;&gt;&lt;a href=&quot;#eq-ui-tab-s5-t1&quot;&gt;&lt;i class=&quot;mdi mdi-home icon&quot;&gt;&lt;/i&gt;&lt;br&gt;Home&lt;/a&gt;&lt;/li&gt;
@@ -960,6 +1145,8 @@
     &lt;li class=&quot;eq-ui-tab&quot;&gt;&lt;a href=&quot;#eq-ui-tab-s5-t4&quot;&gt;&lt;i class=&quot;mdi mdi-heart icon&quot;&gt;&lt;/i&gt;&lt;br&gt;Showcase&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 ...</code></pre>
+</div>
+</div>
         </div>
     </div>
 
@@ -968,10 +1155,32 @@
             <h2 class="header">jQuery Plugin Initialization</h2>
             <p>Tabs are initialized automatically, but if you add tabs dynamically you will have to initialize them like this.</p>
 
-            <pre><code class="language-javascript">
+<div class="col-md-12">
+   <div class="eq-ui-scrollbar-wrap eq-ui-primary-color eq-ui-scrollbar-wrap-x eq-ui-scrollbar-wrap-hide common">
+       <ul class="eq-ui-tabs">
+           <li class="eq-ui-tab"><a class="active" href="#eq-ui-tab-s1-t17">JADE</a></li>
+           <li class="eq-ui-tab"><a href="#eq-ui-tab-s1-t18">HTML</a></li>
+
+       </ul>
+   </div>
+</div>
+
+<div id="eq-ui-tab-s1-t17" class="col-md-12">
+<pre><code class="language-jade">
+| $(document).ready(function(){
+| $('ul.eq-ui-tabs').tabs();
+| });
+
+</code></pre>
+
+</div>
+<div id="eq-ui-tab-s1-t18" class="col-md-12">
+<pre><code class="language-javascript">
 $(document).ready(function(){
     $('ul.eq-ui-tabs').tabs();
 });</code></pre>
+</div>
+</div>
         </div>
     </div>
 
@@ -980,10 +1189,35 @@ $(document).ready(function(){
             <h2 class="header">jQuery Plugin Methods</h2>
             <p>You can programmatically trigger a tab change with our <code class=" language-markup">select_tab</code> method. You have to input the id of the tab you want to switch to. For sample id: <code class=" language-markup">#eq-ui-tab-s3-t1</code></p>
 
-            <pre><code class="language-javascript">
+            
+
+<div class="col-md-12">
+   <div class="eq-ui-scrollbar-wrap eq-ui-primary-color eq-ui-scrollbar-wrap-x eq-ui-scrollbar-wrap-hide common">
+       <ul class="eq-ui-tabs">
+           <li class="eq-ui-tab"><a class="active" href="#eq-ui-tab-s1-t19">JADE</a></li>
+           <li class="eq-ui-tab"><a href="#eq-ui-tab-s1-t20">HTML</a></li>
+
+       </ul>
+   </div>
+</div>
+
+<div id="eq-ui-tab-s1-t19" class="col-md-12">
+<pre><code class="language-jade">
+| $(document).ready(function(){
+| $('ul.eq-ui-tabs').tabs('select_tab', 'eq-ui-tab-s3-t1');
+| });
+
+
+</code></pre>
+
+</div>
+<div id="eq-ui-tab-s1-t20" class="col-md-12">
+<pre><code class="language-javascript">
 $(document).ready(function(){
     $('ul.eq-ui-tabs').tabs('select_tab', 'eq-ui-tab-s3-t1');
 });</code></pre>
+</div>
+</div>
         </div>
     </div>
 
@@ -1003,12 +1237,12 @@ $(document).ready(function(){
 </div>
     </main><script src="assets/js/vendor/jquery/dist/jquery.min.js?v=2.1.4"></script>
 <script src="assets/js/vendor/jquery-timeago/jquery.timeago.js?v=1.4.3"></script>
-<script src="assets/js/exentriq-bootstrap-material-ui.min.js?v=0.3.2"></script>
+<script src="assets/js/exentriq-bootstrap-material-ui.js?v=0.0.0"></script>
 
 <script src="assets/js/tp/tp-color.html" type="riot/tag"></script>
 <script src="assets/js/vendor/riot/riot+compiler.min.js?v=2.3.0"></script>
 
-<script src="assets/js/doc.js?v=0.3.2"></script>
+<script src="assets/js/doc.js?v=0.0.0"></script>
 <script src="assets/js/ctrl/ctrl-color.js"></script>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
